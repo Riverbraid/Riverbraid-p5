@@ -1,3 +1,8 @@
+---
+**Status:** Experimental / Research
+**Normative Source:** Independent
+---
+
 # Riverbraid-p5
 **Stationary Generative Art**
 
