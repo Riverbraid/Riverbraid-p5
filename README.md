@@ -1,7 +1,8 @@
 # Riverbraid-p5
-**A Riverbraid Variation: Stationary Generative Art**
+**Stationary Generative Art**
 
-This is a fork-substrate of p5.js augmented by the Riverbraid stationary floor. It ensures that generative sketches remain tied to their original intent through automated integrity verification.
+A variation of p5.js anchored by the Riverbraid stationary floor. This substrate ensures that generative sketches remain mechanically honest and tied to their original architectural intent.
 
-### Verification
-Run `node verify-sketch.js` to confirm the stationary state.
+### **Verification**
+`node verify-sketch.js`
+> Returns 0 if the canvas integrity is locked; fails-closed if logic drift is detected.
