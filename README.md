@@ -1,8 +1,7 @@
----
 **Status:** Experimental / Research
 **Normative Source:** N/A
 **Authority Boundary:** This repository is experimental and does not define canonical Riverbraid protocol semantics.
----
+
 
 # Riverbraid-p5
 **Stationary Generative Art**
