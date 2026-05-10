@@ -1,0 +1,1 @@
+{"schema":"riverbraid.protocol.steps","version":"1.0.0","canonical_input":{"repo":"Riverbraid-p5","ring":2,"role":"p5-runtime-fork","lifecycle":{"steps":["setup","verify","draw"],"requires_verify_before_draw":true}}}

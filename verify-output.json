@@ -1,22 +1,23 @@
 {
+  "schema": "riverbraid.infrastructure.verify.output",
+  "version": "1.0.0",
   "repo": "Riverbraid-p5",
   "ring": 2,
-  "class": "runtime-fork",
+  "role": "p5-runtime-fork",
+  "invariant": "P5_LIFECYCLE_STATIONARY",
+  "contract_type": "runtime-lifecycle-contract",
   "status": "VERIFIED",
-  "verification_scope": "ring2-runtime-fork-anchor-and-file-surface",
-  "claim_boundary": "infrastructure-classification-only",
-  "expected_anchor": "STATIONARY_STATE_V2_20260425-092050",
-  "observed_anchor": "STATIONARY_STATE_V2_20260425-092050",
-  "anchor_matches": true,
-  "structural_artifact_present": true,
+  "canonical_signal": "p5:LIFECYCLE_STATIONARY",
+  "canonical_reason": "Match",
+  "digest": "sha256:d7092b463cb0bc34737a833082c42158b2cc68c276e16d4768c0c345b137bdbe",
   "required_files": [
-    ".anchor",
-    "AUTHORITY.md",
-    "RING.md",
     "package.json",
-    "verify.mjs"
+    "index.js",
+    "verify.mjs",
+    "protocol.steps",
+    "AUTHORITY.md",
+    "RING.md"
   ],
   "missing_files": [],
-  "failure_codes": [],
-  "digest": "sha256:bcbb992ae7f3973a559f95f4f241eaf3029704971ce3fbbb7ba88330d0ba56bb"
+  "failure_codes": []
 }

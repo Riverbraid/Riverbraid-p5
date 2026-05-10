@@ -1,0 +1,1 @@
+export function verify(i){ const l = i.lifecycle; const s = (i.repo==="Riverbraid-p5" && i.ring===2 && i.role==="p5-runtime-fork" && l.steps.join("|")==="setup|verify|draw" && l.requires_verify_before_draw===true); return {pass:s, stationary:s, signal:s?"p5:LIFECYCLE_STATIONARY":"p5:DRIFT", reason:s?"Match":"Drift"}; }

@@ -1,11 +1,8 @@
 {
-    "main":  "verify-sketch.js",
-    "name":  "riverbraid-p5",
-    "version":  "1.5.0",
-    "dependencies":  {
-                         "riverbraid-core":  "file:../Riverbraid-Core"
-                     },
-    "scripts":  {
-
-                }
+  "name": "riverbraid-p5",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": { "verify": "node verify.mjs" },
+  "riverbraid": { "ring": 2, "role": "p5-runtime-fork", "invariant": "P5_LIFECYCLE_STATIONARY", "claim_boundary": "deterministic-infrastructure-contract-only" }
 }
